@@ -6,18 +6,23 @@ img {
     padding-bottom:10px;
   }
   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
   li {
-      display:inline;
-      padding-right:10px;
+    float: left;
   }
   
-  .gmail {
-      padding-left:1200px;
-  }
-  
-  .signin {
-      background-color:blue;
-      color:white;
+  li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
   
   #searchbar {
@@ -44,3 +49,14 @@ img {
       padding:10px;
       left:43%;
   }
+      
+  .bottom {
+      margin:0;
+      overflow: hidden;
+  background-color:#c2bebe;
+  position:fixed;
+  left:1px;
+  bottom:0;
+  width:100%;
+  }	
+      
